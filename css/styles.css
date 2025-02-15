@@ -15,6 +15,18 @@ a {
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
+
 ul, ol {
     list-style: none;
     margin: 0;
@@ -67,7 +79,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
 }
 
 .logo-color {
@@ -89,6 +100,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .nav-item-link:hover, 
 .nav-item-link:focus {
     color: #404bbf;
@@ -112,8 +124,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    
+    color: #434455; 
 }
 
 .list-contacts-link:hover,
@@ -170,12 +181,13 @@ img {
     background-color: #404bbf;
 }
 
-.container-hero-button {
-    
-
 /*  #endregion Hero */
 
 /* #region Features */
+
+.features-container {
+    padding: 120px 0;
+}
 
 .features-title {
     font-weight: 700;
@@ -186,12 +198,22 @@ img {
     color: #2e2f42;
 }
 
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-items {
+    width: calc((100% - 72px) / 4);
+}
+
 .features-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-list-text {
@@ -200,7 +222,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
 }
 /* #endregion Features */
 
