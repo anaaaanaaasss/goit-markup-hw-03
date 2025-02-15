@@ -34,10 +34,15 @@ button {
     font-family: "Roboto", sans-serif;
 }
 
+img {
+    display: block;
+}
+
 /* #region header */
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
 }
 
 .header-container {
