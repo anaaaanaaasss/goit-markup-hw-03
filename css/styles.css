@@ -48,6 +48,8 @@ button {
 
 img {
     display: block;
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 /* #region header */
@@ -225,14 +227,16 @@ img {
 }
 /* #endregion Features */
 
-/* #region Team */
 
+/* #region Team */
 
 .team {
     background: #f4f4fd;
 }
 
-
+.team-container {
+    padding: 120px 0;
+}
 
 .team-title {
     font-weight: 700;
@@ -242,10 +246,17 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list, .team-card {
     background-color: #fff;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+
 }
 
 .team-list-title {
@@ -255,6 +266,11 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-card {
+    width: calc((100% - 72px) / 4);
 }
 
 .team-card-text {
@@ -265,6 +281,12 @@ img {
     text-align: center;
     color: #434455;
 }
+
+.container-team-info {
+    padding: 32px 0;
+
+}
+
 
 /* #endregion Team */
 
