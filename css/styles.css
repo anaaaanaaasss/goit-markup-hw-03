@@ -42,13 +42,12 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-
+    width: 1158px;
 }
 
 .header-nav {
@@ -173,10 +172,6 @@ img {
 
 /* #region Features */
 
-.features {
-    background-color: #f4f4fd;
-}
-
 .features-title {
     font-weight: 700;
     font-size: 36px;
@@ -205,9 +200,13 @@ img {
 /* #endregion Features */
 
 /* #region Team */
+
+
 .team {
-    background-color: #f4f4fd;
+    background: #f4f4fd;
 }
+
+
 
 .team-title {
     font-weight: 700;
@@ -244,9 +243,6 @@ img {
 /* #endregion Team */
 
 /* #region Portfolio */
-.portfolio {
-    background-color: #f4f4fd;
-}
 
 .portfolio-title {
     font-weight: 700;
